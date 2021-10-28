@@ -1,0 +1,20 @@
+length:
+ length is a final variable applicable for arrays. With the help of the length variable, we can obtain the size of the array. 
+length():
+ length() method is a final variable which is applicable for string objects. The length() method returns the number of characters 
+ present in the string. 
+
+
+Hybrid inheritance:
+ In simple terms you can say that Hybrid inheritance is a combination of Single and Multiple inheritance. A typical flow diagram would look like 
+ below. A hybrid inheritance can be achieved in the java in a same way as multiple inheritance can be!! Using interfaces. yes you heard it right.
+ By using interfaces you can have multiple as well as hybrid inheritance in Java
+
+Multiple inheritance:
+Multiple inheritance is a feature of some object-oriented computer programming languages in which an object or class can inherit characteristics
+ and features from more than one parent object or parent class. It is distinct from single inheritance, where an object or class may only 
+ inherit from one particular object or class.
+ Multiple inheritance has been a controversial issue for many years,[1][2] with opponents pointing to its increased complexity and ambiguity in
+ situations such as the "diamond problem", where it may be ambiguous as to which parent class a particular feature is inherited from if more than 
+ one parent class implements same feature. This can be addressed in various ways, including using virtual inheritance.[3] Alternate methods of
+ object composition not based on inheritance such as mixins and traits have also been proposed to address the ambiguity.
