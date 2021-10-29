@@ -1,0 +1,15 @@
+import java.util.Scanner;
+
+public class Frnd2 {
+public static void main(String[] args) {
+	Scanner sc=new Scanner(System.in);
+	System.out.println("Hello\nCan you give me rani's Number : ");
+	long l=sc.nextLong();
+	if(l>6000000000l &&l<9999999999l) {
+		 System.out.println("bro this number is not reachable");
+	}
+	else {
+		System.out.println("enter the Valid Mobile Number");
+	}
+}
+}
