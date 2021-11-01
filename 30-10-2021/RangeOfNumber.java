@@ -9,13 +9,14 @@ public class RangeOfNumber {
 public static void main(String[] args) {
 	int sum=0;	
 	int fiveSum=0;
-	for(int number=1;number<=1000;number++) {
-
-	if(number%3==0 || number%5==0) {
+	int count=5;
+	for(int number=1;count!=0;number++) {
+		
+	if(number%3==0 && number%5==0) {
 		sum=number+sum;
+		count--;
+		
 	}
-	
-
 	}
 	/*
 	 * for(int j=1;j<=1000;j++) { int count=0; if(count<=5) { if(j%3==0 || j%5==0) {
@@ -24,12 +25,12 @@ public static void main(String[] args) {
 	 * 
 	 * }
 	 */
-	System.out.println("Sum of the numbers that divided by 3 and 5 :"+sum);
+	System.out.println("Sum of the first five numbers that divided by 3 and 5 :"+sum);
 	/*
 	 * System.out.println("Sum of first five number that divided by 3 and 5 :"
 	 * +fiveSum);
 	 */
-}
+} 
 }
 
 
