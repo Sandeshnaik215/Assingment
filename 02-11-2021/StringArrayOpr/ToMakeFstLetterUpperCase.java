@@ -1,4 +1,4 @@
-package techno.java.assign.StringArrayOpr;
+package techno.java.assign.asgn2.StringArrayOpr;
 import java.io.IOException;
 
 public class ToMakeFstLetterUpperCase {
@@ -9,6 +9,7 @@ public static void main(String[] args) throws IOException {
 		String st=array[i];
 	    String s1 = st.substring(0, 1).toUpperCase();
 	    String rst = s1 + st.substring(1);
+	    System.err.print(" ");
 	    System.out.print(rst);
 	}
 }
