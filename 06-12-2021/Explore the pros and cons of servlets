@@ -1,0 +1,18 @@
+pros:
+The servlet is a server side component which gives a powerful mechanism for developing server side application.
+Servlet provides an important role in the exploring internet, reusability, performance and scalability.
+A web developer can create fast and efficient server side program by using servlets.
+The servlet is platform independent because servlet is written entirely on Java. Servlets can run on any web server. For example, if one develops an application in windows machine running the Resin server, one can easily run the same application on Apache web server without modification and compilation of code.
+The servlet is safe because, servlet inherits Java with all features like memory management, exception handling, multi-threading, garbage collection and emerged as a very powerful web server extension.
+The servlet is secure.It is nothing but applying Authentication and Authorization on the Web Application.
+Authentication means checking the identity of a user.
+Authorization means checking the access permission of the user on particular resources of the project.
+The servlet is Robust because, they are managed by the JVM.So need not worry about the memory leak, garbage collection.
+The servlet is Scalable because, Servlet developed based on thread based server side technologies.
+
+cons:
+One servlet is loaded into JVM. ...
+When there is a request, there is a thread, not a process.
+Servlet is persistent until it destroys.
+Designing in a servlet is difficult and slows down the application.
+You need a JRE(Java Runtime Environment) on the server to run servlets.

@@ -1,0 +1,3 @@
+Maven provides project information (log document, dependency list, unit test reports etc.) Maven is very helpful for a project while 
+updating central repository of JARs and other dependencies. With the help of Maven we can build any number of projects into output types like 
+the JAR, WAR etc without doing any scripting.
